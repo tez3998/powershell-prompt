@@ -11,8 +11,8 @@ PowerShellで$PROFILEの値を確認し、ディレクトリがなければ作�
 PowerShell Set-ExecutionPolicy RemoteSigned
 ```
 
-権限がRemoteSignedになっていればOK。
 権限は次のコマンドで確認できる。
+権限がRemoteSignedになっていればOK。
 ```powershell
 Get-ExecutionPolicy
 ```
